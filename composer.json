@@ -1,11 +1,11 @@
 {
-    "name": "overtrue/php-package",
-    "description": "A PHP package template repository.",
+    "name": "nilsir/curlify",
+    "description": "A PHP SDK for http or https request to curl command string just work in he Apache, FastCGI, CLI, and FPM webservers.",
     "license": "MIT",
     "authors": [
         {
-            "name": "vendor",
-            "email": "name@domain.com"
+            "name": "nilsir",
+            "email": "nilsir@qq.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\Package\\": "src"
+            "Nilsir\\Curlify\\": "src"
         }
     },
     "extra": {

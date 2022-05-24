@@ -1,8 +1,15 @@
 <?php
 
+$header = <<<EOF
+This file is part of the nilsir/curlify.
+(c) nilsir <nilsir@qq.com>
+This source file is subject to the MIT license that is bundled.
+EOF;
+
 return (new PhpCsFixer\Config())
     ->setRules([
         '@PSR12' => true,
+        'header_comment' => ['header' => $header],
         'binary_operator_spaces' => true,
         'blank_line_after_opening_tag' => true,
         'compact_nullable_typehint' => true,
